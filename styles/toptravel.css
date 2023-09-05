@@ -1,0 +1,81 @@
+.topSection
+{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 0 169px; /*Added new*/
+}
+.topSection .content {
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+    align-items: flex-start;
+    gap: 43px;
+    position: relative;
+}
+.topSection .content .exploreBtn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 32px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px #00000012, 0px 34px 75px #00000012, 0px 137px 137px #0000000f, 0px 308px 185px #0000000a, 0px 548px 219px #00000003, 0px 856px 240px transparent;
+}
+
+.topSection .content .exploreBtn .text {
+    font-family: "CircularStd-Bold", Helvetica;
+    font-weight: 700;
+    color: rgba(248, 94, 159, 1);
+    font-size: 14px;
+
+}
+.topSection .content .exploreBtn .img {
+    width: 24px;
+    height: 24px;
+}
+.topSection .content .topHeading
+{
+    position: relative;
+    width: 597px;
+    margin-right: -170px;
+    font-family: "CircularStd-Bold", Helvetica;
+    font-weight: 700;
+    /* color: transparent; */
+    font-size:69px;
+}
+.topSection .content .topHeading .textBlack{
+    color: #000000;
+}
+.topSection .content .topHeading .textPink{
+    color: rgba(248, 94, 159, 1);
+}
+
+:root {
+    --secondary: rgba(248, 94, 159, 1);
+    --grey-scaleblack-50: rgba(25, 24, 37, 0.5);
+    --light: rgba(238, 238, 238, 1);
+    --primary: rgba(93, 80, 198, 1);
+    --dark: rgba(34, 40, 49, 1);
+    --white: rgba(255, 255, 255, 1);
+    --medium: rgba(57, 62, 70, 1);
+    --button-font-family: "CircularStd-Bold", Helvetica;
+    --button-font-weight: 700;
+    --button-font-size: 14px;
+    --button-letter-spacing: 0px;
+    --button-line-height: 120.00000476837158%;
+    --button-font-style: normal;
+    --h1-font-family: "CircularStd-Bold", Helvetica;
+    --h1-font-weight: 700;
+    --h1-font-size: 69px;
+    --h1-letter-spacing: 0px;
+    --h1-line-height: 120.00000476837158%;
+    --h1-font-style: normal;
+    --body-font-family: "Inter-Regular", Helvetica;
+    --body-font-weight: 400;
+    --body-font-size: 18px;
+    --body-letter-spacing: 0px;
+    --body-line-height: 160.0000023841858%;
+    --body-font-style: normal;
+  }
+  
