@@ -21,6 +21,7 @@
     align-items: center;
     gap: 16px;
     padding: 16px 32px;
+    background-color: #FFF;
     border-radius: 100px;
     box-shadow: 0px 0px 0px #00000012, 0px 34px 75px #00000012, 0px 137px 137px #0000000f, 0px 308px 185px #0000000a, 0px 548px 219px #00000003, 0px 856px 240px transparent;
 }
