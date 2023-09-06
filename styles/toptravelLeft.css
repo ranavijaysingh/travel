@@ -1,10 +1,9 @@
 .topSection
 {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
-    padding: 0 169px; /*Added new*/
     margin-top: 177px;/*Added new*/
     font-family: "CircularStd-Bold", Helvetica;
 
@@ -94,31 +93,5 @@
     color: rgba(34, 40, 49, 1);
     font-size: 18px;
 }
-:root {
-    --secondary: rgba(248, 94, 159, 1);
-    --grey-scaleblack-50: rgba(25, 24, 37, 0.5);
-    --light: rgba(238, 238, 238, 1);
-    --primary: rgba(93, 80, 198, 1);
-    --dark: rgba(34, 40, 49, 1);
-    --white: rgba(255, 255, 255, 1);
-    --medium: rgba(57, 62, 70, 1);
-    --button-font-family: "CircularStd-Bold", Helvetica;
-    --button-font-weight: 700;
-    --button-font-size: 14px;
-    --button-letter-spacing: 0px;
-    --button-line-height: 120.00000476837158%;
-    --button-font-style: normal;
-    --h1-font-family: "CircularStd-Bold", Helvetica;
-    --h1-font-weight: 700;
-    --h1-font-size: 69px;
-    --h1-letter-spacing: 0px;
-    --h1-line-height: 120.00000476837158%;
-    --h1-font-style: normal;
-    --body-font-family: "Inter-Regular", Helvetica;
-    --body-font-weight: 400;
-    --body-font-size: 18px;
-    --body-letter-spacing: 0px;
-    --body-line-height: 160.0000023841858%;
-    --body-font-style: normal;
-  }
+
   

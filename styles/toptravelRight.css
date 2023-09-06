@@ -1,0 +1,56 @@
+.topSection .image{
+    /* position: relative; */
+    width: 772px;
+    height: 713px;
+}
+.topSection .image .earthLayer{
+  position: relative; /*Need to better understand this*/
+  /* height: 821px; */
+}
+.topSection .image .earthLayer .earthImg{
+  position: absolute;
+  width: 772px;
+  height: 287px;
+  top: 0;
+  left: 0;
+}
+.topSection .image .earthLayer .gallery{
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  position: absolute;
+  top: 75px;
+  left: 91px;
+}
+.topSection .image .earthLayer .gallery .pairImg{
+  display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.topSection .image .earthLayer .plane {
+  position: absolute;
+  top: 341px;
+  left: 25px;
+}
+.topSection .image .earthLayer .contact {
+  position: absolute;
+  top: 649px;
+  left: 443px;
+}
+
+.topSection .image .earthLayer .location{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  position: absolute;
+  top: 488px;
+  left: 592px;
+  background-color: var(--white);
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0px 43px 26px #0000000d, 0px 77px 31px #00000003, 0px 120px 34px transparent;
+  font-weight: 700;
+  color: rgba(57, 62, 70, 1);
+  font-size: 14px;
+}
