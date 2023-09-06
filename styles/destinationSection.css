@@ -1,62 +1,37 @@
-/* .destinationSection
+.destinationSection
 {
-    background: url('assests/Vectorback.png');
-    background-size: cover; 
+  background: url('assests/Vectorback.png');
+  background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center;
-} */
-.frame {
+}
+.destinationSection .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 64px 169px;
-    position: relative;
+}
+.destinationSection .content .text {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+  font-family: "Circular Std-Bold", Helvetica;
+  font-weight: 700;
+}
+.destinationSection .content .text .pinkText{
+  color: rgba(248, 94, 159, 1);
+  font-size: 23px;
+  letter-spacing: 4.6px;
+}
+.destinationSection .content .text .blackText {
+  font-size: 44px;
+}
+.destinationSection .content .arrowIcon {
+  gap: 32px;
+  display: flex;
 }
 
-.frame .div {
-flex-direction: column;
-gap: 16px;
-display: inline-flex;
-align-items: flex-start;
-position: relative;
-flex: 0 0 auto;
-}
-
-.frame .top-destination {
-position: relative;
-width: fit-content;
-margin-top: -1px;
-font-family: "Circular Std-Bold", Helvetica;
-font-weight: 700;
-color: var(--secondary);
-font-size: 23px;
-letter-spacing: 4.6px;
-line-height: 27.6px;
-white-space: nowrap;
-}
-
-.frame .text-wrapper {
-position: relative;
-width: fit-content;
-font-family: var(--h3-font-family);
-font-weight: var(--h3-font-weight);
-color: var(--grey-scaleblack);
-font-size: var(--h3-font-size);
-letter-spacing: var(--h3-letter-spacing);
-line-height: var(--h3-line-height);
-white-space: nowrap;
-font-style: var(--h3-font-style);
-}
-
-.frame .div-2 {
-gap: 32px;
-display: inline-flex;
-align-items: flex-start;
-position: relative;
-flex: 0 0 auto;
-}
-
-.frame .group {
+.destinationSection .content .arrowIcon .btnLeft {
 position: relative;
 width: 100px;
 height: 100px;
@@ -66,21 +41,33 @@ border: 1px solid;
 border-color: #1918251a;
 }
 
-.frame .arrow-left {
-position: absolute;
-width: 24px;
-height: 24px;
-top: 37px;
-left: 37px;
+.destinationSection .content .arrowIcon .btnLeft .arrow-left 
+{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 37px;
+  left: 37px;
+  }
+.destinationSection .content .arrowIcon .btnRight 
+{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #5D50C6;
+  border-radius: 100px;
+  border: 1px solid;
+  color: white;
+  border-color: #5D50C6;
 }
-
-.frame .img {
-position: relative;
-width: 192px;
-height: 271px;
-margin-top: -9px;
-margin-bottom: -162px;
-margin-right: -46px;
+.destinationSection .content .arrowIcon .btnRight .arrow-right 
+{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 37px;
+  color: white;
+  left: 37px;
 }
 
 

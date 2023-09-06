@@ -6,7 +6,7 @@
     justify-content: center;
     margin-top: 177px;/*Added new*/
     font-family: "CircularStd-Bold", Helvetica;
-
+    gap: 45px;
 }
 .topSection .content {
     display: flex;
