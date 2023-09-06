@@ -1,0 +1,84 @@
+.cards {
+    padding: 32px 169px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card 
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+  
+.card .rectangle 
+{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+  
+.card .div 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 32px 32px;
+    box-shadow: 0px 0px 0px #0000000d, 0px 32px 71px #0000000d, 0px 128px 128px #0000000a, 0px 288px 173px #00000008, 0px 513px 205px #00000003, 0px 801px 224px transparent;
+}
+  
+  .card .div-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+  
+  .card .div-3 {
+    display: flex;
+    width: 286px;
+  }
+  
+  .card .text-wrapper {
+    font-family: "CircularStd-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120.00000476837158%;
+  }
+  
+  .card .text-wrapper-2 {
+    font-weight: 700;
+    color: rgba(248, 94, 159, 1);
+    font-size: 23px;
+    line-height: 120.00000476837158%;
+  }
+  
+  .card .text-wrapper-3 
+{    
+    font-family: "Inter-Regular", Helvetica;
+    color:  rgba(25, 24, 37, 0.75);
+    font-size: 18px;
+    line-height: 160.0000023841858%;
+}
+  
+  .card .div-4 {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .card .text-wrapper-4 {
+    font-family: "CircularStd-Bold", Helvetica;
+    font-weight: 700;
+    color: rgba(255, 87, 34, 1);
+    font-size: 23px;
+    line-height: 120.00000476837158%;
+  }
+  
+  .card .star {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  
