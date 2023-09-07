@@ -4,20 +4,20 @@
     padding: 32px 169px;
     /* justify-content: center;   */
 }
-.frame {
+.featureSection .content {
     display: flex;
     flex-direction: column;
     width: 540px;
     gap: 64px;
   }
   
-  .frame .div, .frame .div-2 {
+  .featureSection .content .div, .featureSection .content .div-2 {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
   
-  .frame .key-features {
+  .featureSection .content .key-features {
     font-family: "Circular Std-Bold", Helvetica;
     font-weight: 700;
     color: var(--secondary);
@@ -25,19 +25,19 @@
     letter-spacing: 4.6px;
   }
   
-  .frame .text-wrapper {
+  .featureSection .content .text-wrapper {
     font-family: var(--h3-font-family);
     font-weight: var(--h3-font-weight);
     font-size: var(--h3-font-size);
   }
   
-  .frame .contrary-to-popular {
+  .featureSection .content .contrary-to-popular {
     font-family: var(--body-font-family);
     color: var(--grey-scaleblack-50);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
   }
-  .frame .div-4 {
+  .featureSection .content .div-4 {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -46,7 +46,7 @@
     border-radius: 32px;
   }
   
-  .frame .group {
+  .featureSection .content .group {
     position: relative;
     width: 100px;
     height: 100px;
@@ -54,31 +54,31 @@
     border-radius: 32px;
   }
   
-  .frame .img {
+  .featureSection .content .img {
     position: absolute;
     top: 26px;
     left: 26px;
   }
   
-  .frame .div-5 {
+  .featureSection .content .div-5 {
     display: inline-flex;
     flex-direction: column;
     gap: 8px;
   }
   
-  .frame .text-wrapper-2 {
+  .featureSection .content .text-wrapper-2 {
     font-family: var(--h6-font-family);
     font-weight: var(--h6-font-weight);
     font-size: var(--h6-font-size);
 }
   
-  .frame .p {
+  .featureSection .content .p {
     font-family: var(--body-font-family);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
   }
   
-  .frame .div-6 {
+  .featureSection .content .div-6 {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -89,7 +89,7 @@
     border-color: var(--grey-scaleblack-10);
   }
   
-  .frame .calendar-wrapper {
+  .featureSection .content .calendar-wrapper {
     background-color: #facd49;
     position: relative;
     width: 100px;
@@ -97,7 +97,7 @@
     border-radius: 32px;
   }
   
-  .frame .calendar {
+  .featureSection .content .calendar {
     position: absolute;
     width: 48px;
     height: 48px;
@@ -105,7 +105,7 @@
     left: 24px;
   }
   
-  .frame .ticket-wrapper {
+  .featureSection .content .ticket-wrapper {
     background-color: #f85e9f;
     position: relative;
     width: 100px;
