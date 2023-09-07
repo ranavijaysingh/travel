@@ -46,3 +46,12 @@
     border-radius: 100px;
     color: rgba(238, 238, 238, 1);
 }
+.navbar .registration .signin:hover, .navbar .registration .login:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+}
+.navbar .navlinks .current:hover, .navbar .navlinks .rest:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}

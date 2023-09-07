@@ -82,6 +82,5 @@ border-color: #1918251a;
 .destinationSection .content .arrowIcon .btnLeft:hover,.destinationSection .content .arrowIcon .btnRight:hover{
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
-  /* border-radius: 32px 32px 32px 32px; */
   cursor: pointer;
 }
