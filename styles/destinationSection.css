@@ -1,14 +1,13 @@
 .destinationSection {
   position: relative;
-
 }
 
-.destinationSection .imageWrapper{
-  position:absolute;
+.destinationSection .imageWrapper {
+  position: absolute;
   top: -280px;
   width: 100%;
 }
-.destinationSection .imageWrapper .img{
+.destinationSection .imageWrapper .img {
   width: 100%;
   opacity: 0.1;
 }
@@ -26,7 +25,7 @@
   font-family: "Circular Std-Bold", Helvetica;
   font-weight: 700;
 }
-.destinationSection .content .text .pinkText{
+.destinationSection .content .text .pinkText {
   color: rgba(248, 94, 159, 1);
   font-size: 23px;
   letter-spacing: 4.6px;
@@ -39,37 +38,58 @@
   display: flex;
 }
 
-.destinationSection .content .arrowIcon .btnLeft {
-position: relative;
-width: 100px;
-height: 100px;
-background-color: #ffffff;
-border-radius: 100px;
-border: 1px solid;
-border-color: #1918251a;
+@media screen and (max-width: 720px) {
+  .destinationSection {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .destinationSection .content .arrowIcon {
+    display: none;
+  }
+  .destinationSection .content {
+    width: 100%;
+  }
+  .destinationSection .imageWrapper {
+    display: none;
+  }
+  .destinationSection .imageWrapper .img {
+    display: none;
+  }
 }
 
-.destinationSection .content .arrowIcon .btnLeft .arrow-left 
-{
+.destinationSection .content .arrowIcon .btnLeft {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #1918251a;
+}
+
+.destinationSection .content .arrowIcon .btnLeft .arrow-left {
   position: absolute;
   width: 24px;
   height: 24px;
   top: 37px;
   left: 37px;
-  }
-.destinationSection .content .arrowIcon .btnRight 
-{
+}
+.destinationSection .content .arrowIcon .btnRight {
   position: relative;
   width: 100px;
   height: 100px;
-  background-color: #5D50C6;
+  background-color: #5d50c6;
   border-radius: 100px;
   border: 1px solid;
   color: white;
-  border-color: #5D50C6;
+  border-color: #5d50c6;
 }
-.destinationSection .content .arrowIcon .btnRight .arrow-right 
-{
+.destinationSection .content .arrowIcon .btnRight .arrow-right {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -79,8 +99,9 @@ border-color: #1918251a;
 }
 
 /*Hovering*/
-.destinationSection .content .arrowIcon .btnLeft:hover,.destinationSection .content .arrowIcon .btnRight:hover{
+.destinationSection .content .arrowIcon .btnLeft:hover,
+.destinationSection .content .arrowIcon .btnRight:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }

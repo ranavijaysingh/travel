@@ -1,9 +1,12 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
 }
 header {
-  background: url('assests/Ellipse\ 23.png');
+  background: url("assests/Ellipse\ 23.png");
   background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat; /* Prevent image from repeating */
   background-position: center;

@@ -1,20 +1,17 @@
-.topSection .image{
-    /* position: relative; */
-    width: 772px;
-    height: 713px;
+.topSection .image {
+  /* position: relative; */
+  width: 772px;
+  height: 713px;
 }
-.topSection .image .earthLayer{
+.topSection .image .earthLayer {
   position: relative; /*Need to better understand this*/
   /* height: 821px; */
 }
-.topSection .image .earthLayer .earthImg{
-  position: absolute;
-  width: 772px;
-  height: 287px;
-  top: 0;
-  left: 0;
+.topSection .image .earthLayer .earthImg {
+  width: 100%;
+  height: 100%;
 }
-.topSection .image .earthLayer .gallery{
+.topSection .image .earthLayer .gallery {
   display: flex;
   align-items: center;
   gap: 31px;
@@ -22,10 +19,28 @@
   top: 75px;
   left: 91px;
 }
-.topSection .image .earthLayer .gallery .pairImg{
+.topSection .image .earthLayer .location {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  position: absolute;
+  top: 488px;
+  left: 592px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0px 43px 26px #0000000d, 0px 77px 31px #00000003,
+    0px 120px 34px transparent;
+  font-weight: 700;
+  color: rgba(57, 62, 70, 1);
+  font-size: 14px;
+}
+
+.topSection .image .earthLayer .gallery .pairImg {
   display: flex;
-    flex-direction: column;
-    gap: 32px;
+  flex-direction: column;
+  gap: 32px;
 }
 .topSection .image .earthLayer .plane {
   position: absolute;
@@ -38,19 +53,42 @@
   left: 443px;
 }
 
-.topSection .image .earthLayer .location{
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 16px 32px;
-  position: absolute;
-  top: 488px;
-  left: 592px;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 100px;
-  overflow: hidden;
-  box-shadow: 0px 43px 26px #0000000d, 0px 77px 31px #00000003, 0px 120px 34px transparent;
-  font-weight: 700;
-  color: rgba(57, 62, 70, 1);
-  font-size: 14px;
+@media screen and (max-width: 768px) {
+  .topSection .image .earthLayer .gallery {
+    flex-direction: column;
+  }
+
+  .topSection .image .earthLayer .gallery {
+    position: unset;
+  }
+  .topSection .image .earthLayer .earthImg {
+    display: none;
+  }
+
+  .topSection .image {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+  }
+
+  .plane {
+    display: none;
+  }
+  .topSection .image .earthLayer .location {
+    display: none;
+  }
+  .topSection .image .earthLayer .contact {
+    display: none;
+  }
+
+  .topSection .image .earthLayer .gallery .pairImg {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .rectangle-2 {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
 }

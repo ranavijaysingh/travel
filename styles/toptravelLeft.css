@@ -1,98 +1,118 @@
-.topSection
-{
+.topSection {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin-top: 177px; /*Added new*/
+  font-family: "CircularStd-Bold", Helvetica;
+  gap: 45px;
+}
+.topSection .content {
+  display: flex;
+  flex-direction: column;
+  width: 427px;
+  align-items: flex-start;
+  gap: 43px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .topSection {
     display: flex;
+    flex-direction: column;
     align-items: center;
     position: relative;
     justify-content: center;
-    margin-top: 177px;/*Added new*/
+    margin-top: 177px; /*Added new*/
     font-family: "CircularStd-Bold", Helvetica;
     gap: 45px;
-}
-.topSection .content {
-    display: flex;
-    flex-direction: column;
-    width: 427px;
-    align-items: flex-start;
+  }
+
+  .topSection .content {
+    width: 100%;
+    align-items: center;
     gap: 43px;
     position: relative;
+    text-align: center;
+  }
+
+  .topSection .content .topHeading {
+    text-align: center;
+  }
 }
-.topSection .content .exploreBtn{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 16px 32px;
-    background-color: #FFF;
-    border-radius: 100px;
-    box-shadow: 0px 0px 0px #00000012, 0px 34px 75px #00000012, 0px 137px 137px #0000000f, 0px 308px 185px #0000000a, 0px 548px 219px #00000003, 0px 856px 240px transparent;
+
+.topSection .content .exploreBtn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 32px;
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: 0px 0px 0px #00000012, 0px 34px 75px #00000012,
+    0px 137px 137px #0000000f, 0px 308px 185px #0000000a,
+    0px 548px 219px #00000003, 0px 856px 240px transparent;
 }
 
 .topSection .content .exploreBtn .text {
-    font-weight: 700;
-    color: rgba(248, 94, 159, 1);
-    font-size: 14px;
-
+  font-weight: 700;
+  color: rgba(248, 94, 159, 1);
+  font-size: 14px;
 }
 .topSection .content .exploreBtn .img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
-.topSection .content .topHeading
-{
-    font-weight: 700;
-    font-size: 69px;
-    margin-top: 0;
-    margin-bottom: 0;
+.topSection .content .topHeading {
+  font-weight: 700;
+  font-size: 69px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.topSection .content .topHeading .textBlack{
-    color: #000000;
+.topSection .content .topHeading .textBlack {
+  color: #000000;
 }
-.topSection .content .topHeading .textPink{
-    color: rgba(248, 94, 159, 1);
+.topSection .content .topHeading .textPink {
+  color: rgba(248, 94, 159, 1);
 }
-.topSection .content .subHeading
-{
-    position: relative;
-    width: fit-content;
-    font-family: "Inter-Regular", Helvetica;
-    color: rgba(25, 24, 37, 0.5);
-    font-size: 18px;
-    line-height: 160%;
+.topSection .content .subHeading {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  color: rgba(25, 24, 37, 0.5);
+  font-size: 18px;
+  line-height: 160%;
 }
-.topSection .content .btnGroup
-{
-    display: flex;
-    gap: 16px;
+.topSection .content .btnGroup {
+  display: flex;
+  gap: 16px;
 }
-.topSection .content .btnGroup .startBtn
-{
-    display: flex;
-    align-items: center;
-    padding: 16px 32px;
-    background-color: rgba(93, 80, 198, 1);
-    border-radius: 100px;
-    box-shadow: 0px 0px 0px #0000001a, 0px 5px 11px #0000001a, 0px 20px 20px #00000017, 0px 45px 27px #0000000d, 0px 81px 32px #00000003, 0px 126px 35px transparent;
-    color: rgba(238, 238, 238, 1);
-    font-size: 18px;
+.topSection .content .btnGroup .startBtn {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: rgba(93, 80, 198, 1);
+  border-radius: 100px;
+  box-shadow: 0px 0px 0px #0000001a, 0px 5px 11px #0000001a,
+    0px 20px 20px #00000017, 0px 45px 27px #0000000d, 0px 81px 32px #00000003,
+    0px 126px 35px transparent;
+  color: rgba(238, 238, 238, 1);
+  font-size: 18px;
 }
-.topSection .content .btnGroup .watchBtn
-{
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 16px 32px;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 100px;
-    border: 1px solid;
-    border-color: rgba(238, 238, 238, 1);
+.topSection .content .btnGroup .watchBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: rgba(238, 238, 238, 1);
 }
-.topSection .content .btnGroup .watchBtn .btnText
-{
-    position: relative;
-    width: fit-content;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 700;
-    color: rgba(34, 40, 49, 1);
-    font-size: 18px;
+.topSection .content .btnGroup .watchBtn .btnText {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 700;
+  color: rgba(34, 40, 49, 1);
+  font-size: 18px;
 }
-
-  

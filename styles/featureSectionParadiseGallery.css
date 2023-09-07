@@ -1,58 +1,92 @@
-.paradiseGallery{
-    position: relative;
+.paradiseGallery {
+  position: relative;
 }
 .paradiseGallery .overlap {
-    position: absolute;
-    height: 869px;
-  }
-  
+  position: absolute;
+  height: 869px;
+}
+
+.paradiseGallery .BACKGROUND {
+  position: absolute;
+  width: 431px;
+  height: 272px;
+  top: 0;
+  left: 245px;
+}
+
+.paradiseGallery .rectangle-2 {
+  position: absolute;
+  width: 443px;
+  height: 665px;
+  top: 73px;
+  left: 0;
+}
+
+.paradiseGallery .rectangle-3 {
+  position: absolute;
+  width: 399px;
+  height: 544px;
+  top: 325px;
+  left: 162px;
+}
+
+.paradiseGallery .frame-20 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 32px;
+  position: absolute;
+  top: 160px;
+  left: 229px;
+  background-color: var(--white);
+  border-radius: 100px;
+  box-shadow: 0px 0px 0px #00000008, 0px 15px 34px #00000008,
+    0px 62px 62px #00000005, 0px 139px 83px #00000003,
+    0px 246px 99px transparent, 0px 385px 108px transparent;
+}
+
+.paradiseGallery .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h6-font-family);
+  font-weight: var(--h6-font-weight);
+  color: var(--grey-scaleblack);
+  font-size: var(--h6-font-size);
+  letter-spacing: var(--h6-letter-spacing);
+  line-height: var(--h6-line-height);
+  white-space: nowrap;
+  font-style: var(--h6-font-style);
+}
+
+@media screen and (max-width: 1200px) {
   .paradiseGallery .BACKGROUND {
     position: absolute;
-    width: 431px;
-    height: 272px;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 245px;
   }
-  
-  .paradiseGallery .rectangle-2 {
-    position: absolute;
-    width: 443px;
-    height: 665px;
-    top: 73px;
-    left: 0;
-  }
-  
-  .paradiseGallery .rectangle-3 {
-    position: absolute;
-    width: 399px;
-    height: 544px;
-    top: 325px;
-    left: 162px;
-  }
-  
   .paradiseGallery .frame-20 {
+    display: none;
+  }
+  .paradiseGallery .BACKGROUND {
+    display: none;
+  }
+
+  .paradiseGallery .rectangle-2 {
+    position: unset;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paradiseGallery .rectangle-3 {
+    position: unset;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paradiseGallery .overlap {
     display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 16px 32px;
-    position: absolute;
-    top: 160px;
-    left: 229px;
-    background-color: var(--white);
-    border-radius: 100px;
-    box-shadow: 0px 0px 0px #00000008, 0px 15px 34px #00000008, 0px 62px 62px #00000005, 0px 139px 83px #00000003,
-      0px 246px 99px transparent, 0px 385px 108px transparent;
+    flex-direction: column;
   }
-  
-  .paradiseGallery .text-wrapper-13 {
-    position: relative;
-    width: fit-content;
-    font-family: var(--h6-font-family);
-    font-weight: var(--h6-font-weight);
-    color: var(--grey-scaleblack);
-    font-size: var(--h6-font-size);
-    letter-spacing: var(--h6-letter-spacing);
-    line-height: var(--h6-line-height);
-    white-space: nowrap;
-    font-style: var(--h6-font-style);
-  }
+}
