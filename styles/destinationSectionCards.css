@@ -44,14 +44,14 @@
     font-family: "CircularStd-Bold", Helvetica;
     font-weight: 700;
     font-size: 23px;
-    line-height: 120.00000476837158%;
+    line-height: 120%;
   }
   
   .card .text-wrapper-2 {
     font-weight: 700;
     color: rgba(248, 94, 159, 1);
     font-size: 23px;
-    line-height: 120.00000476837158%;
+    line-height: 120%;
   }
   
   .card .text-wrapper-3 
@@ -59,7 +59,7 @@
     font-family: "Inter-Regular", Helvetica;
     color:  rgba(25, 24, 37, 0.75);
     font-size: 18px;
-    line-height: 160.0000023841858%;
+    line-height: 160%;
 }
   
   .card .div-4 {
@@ -81,4 +81,11 @@
     height: 24px;
   }
 
-  
+/* Hovering*/
+.card:hover 
+{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+  border-radius: 32px 32px 32px 32px;
+  cursor: pointer;
+}
