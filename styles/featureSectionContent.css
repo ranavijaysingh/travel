@@ -130,9 +130,11 @@
     width: 100%;
   }
 
-  .featureSection .content .div-4 {
+  .featureSection .content .div-6, .featureSection .content .div-4 {
     padding: 8px;
-  }
+    display: flex;
+    flex-direction: column;
+}
   .featureSection .content .group {
     padding: 20px;
     width: 100%;
