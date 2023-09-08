@@ -55,6 +55,9 @@
     transform: scale(1.15);
     cursor: pointer;
 }
+nav .navlinksMobile{
+    display: none;
+}
 @media screen and (max-width: 1200px){
  .navbar{
     padding: 32px 10px;
@@ -79,22 +82,32 @@
 
 
 @media screen and (max-width: 720px) {
-    .navbar {
-        flex-direction: column; 
-        align-items: flex-start;
-    }
+  
 
     .navbar .company {
         margin-bottom: 16px; 
     }
 
+
     .navbar .navlinks {
-        display: flex; 
-        flex-direction: column; 
-        gap: 16px; 
+        gap: 36px;
+        display: none;
     }
-    .navbar .navlinks .current,
-    .navbar .navlinks .rest {
-        font-size: 16px;
+    nav .navlinksMobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 14%;
+        position: relative;
+        font-family: "Circular Std-Black", Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    nav .navlinksMobile {
+        color: rgba(25, 24, 37, 0.5);
+    }
+    nav .navlinksMobile .current {
+        color: rgba(34, 40, 49, 1);
+    
     }
 }
