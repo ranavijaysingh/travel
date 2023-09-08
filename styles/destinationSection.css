@@ -98,7 +98,6 @@
   left: 37px;
 }
 
-/*Hovering*/
 .destinationSection .content .arrowIcon .btnLeft:hover,
 .destinationSection .content .arrowIcon .btnRight:hover {
   transform: scale(1.05);

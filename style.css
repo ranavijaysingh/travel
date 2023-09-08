@@ -7,7 +7,7 @@ body {
 }
 header {
   background: url("assests/Ellipse\ 23.png");
-  background-size: cover; /* Adjust as needed */
-  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover; 
+  background-repeat: no-repeat;
   background-position: center;
 }

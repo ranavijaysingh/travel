@@ -1,11 +1,9 @@
 .topSection .image {
-  /* position: relative; */
   width: 772px;
   height: 713px;
 }
 .topSection .image .earthLayer {
-  position: relative; /*Need to better understand this*/
-  /* height: 821px; */
+  position: relative; 
 }
 .topSection .image .earthLayer .earthImg {
   width: 100%;
@@ -66,7 +64,6 @@
   }
 
   .topSection .image {
-    /* position: relative; */
     width: 100%;
     height: 100%;
   }

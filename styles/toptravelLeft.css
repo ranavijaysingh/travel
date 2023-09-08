@@ -3,7 +3,7 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  margin-top: 177px; /*Added new*/
+  margin-top: 177px; 
   font-family: "CircularStd-Bold", Helvetica;
   gap: 45px;
 }
@@ -23,7 +23,7 @@
     align-items: center;
     position: relative;
     justify-content: center;
-    margin-top: 177px; /*Added new*/
+    margin-top: 177px;
     font-family: "CircularStd-Bold", Helvetica;
     gap: 45px;
   }
@@ -115,4 +115,10 @@
   font-weight: 700;
   color: rgba(34, 40, 49, 1);
   font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+  .topSection{
+    margin-top: 100px;
+  }
 }
